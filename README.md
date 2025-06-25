@@ -51,3 +51,6 @@
 | PSSO | PSSO |
 
 https://www.gov.br/defesa/pt-br/arquivos/File/legislacao/emcfa/publicacoes/manual-md33-m-02-manual-de-abreviaturas-siglas-simbolos-e-convencoes-cartograficas.pdf/view
+
+
+FAER - FORA DE AERODROMO
