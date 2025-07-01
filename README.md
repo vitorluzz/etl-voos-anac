@@ -1,8 +1,15 @@
-# etl-voos-anac
+# ✈️ Data Engineering Project - Ocorrências de Voos **ANAC**
 
-# Glossário de Campos e Siglas
+## 📌 Descrição
 
-| Nome Completo | Sigla |
+Este projeto tem como objetivo construir uma pipeline de engenharia de dados para coletar, transformar, armazenar e analisar dados de **ocorrências aeronáuticas** disponibilizadas pela **ANAC** e **CENIPA**, promovendo insights relevantes sobre a segurança operacional da aviação civil brasileira.
+
+O projeto segue as boas práticas de arquitetura moderna de dados, priorizando modularidade, rastreabilidade, versionamento, validação e automação.
+
+
+# 📑 Glossário de Campos e Siglas
+
+| Nome da Coluna | Sigla |
 |-------------------------------|--------|
 | Número da Ocorrência | NR_OCR |
 | Número da Ficha | NR_FI |
@@ -50,7 +57,62 @@
 | Nome do Fabricante | NM_FBRC |
 | PSSO | PSSO |
 
-https://www.gov.br/defesa/pt-br/arquivos/File/legislacao/emcfa/publicacoes/manual-md33-m-02-manual-de-abreviaturas-siglas-simbolos-e-convencoes-cartograficas.pdf/view
+> 📘 As abreviações deste glossário foram baseadas no **Manual MD33-M-02** do Ministério da Defesa:  
+> [Manual de Abreviaturas, Siglas, Símbolos e Convenções Cartográficas (MD33)](https://www.gov.br/defesa/pt-br/arquivos/File/legislacao/emcfa/publicacoes/manual-md33-m-02-manual-de-abreviaturas-siglas-simbolos-e-convencoes-cartograficas.pdf/view)
+
+---
+
+## 🔠 Siglas e Abreviações
+
+| Sigla     | Significado |
+|-----------|-------------|
+| **ANAC**  | Agência Nacional de Aviação Civil |
+| **CA**    | Certificado de Aeronavegabilidade |
+| **CAVOK** | Visibilidade ≥ 10 km, nenhuma nuvem abaixo de 1.500 metros ou do setor mais alto, ausência de CB e fenômenos meteorológicos significativos |
+| **CB**    | Cumulonimbus (tipo de nuvem associada a turbulência severa) |
+| **CENIPA**| Centro de Investigação e Prevenção de Acidentes Aeronáuticos |
+| **CG**    | Centro de Gravidade |
+| **CM**    | Certificado de Matrícula |
+| **CMA**   | Certificado Médico Aeronáutico |
+| **DCTA**  | Departamento de Ciência e Tecnologia Aeroespacial |
+| **DINACIA** | Dirección Nacional de Aviación Civil e Infraestructura Aeronáutica |
+| **FAER**  | Fora de Aeródromo |
+| **FL**    | Flight Level (nível de voo) |
+| **IAE**   | Instituto de Aeronáutica e Espaço |
+| **IFR**   | Instrument Flight Rules (Regras de Voo por Instrumentos) |
+| **INFRAERO** | Empresa Brasileira de Infraestrutura Aeroportuária |
+| **Lat**   | Latitude |
+| **Long**  | Longitude |
+| **METAR** | Meteorological Aerodrome Report (Boletim Meteorológico de Aeródromo) |
+| **MLTE**  | Habilitação de classe de aviões multimotores terrestres |
+| **MNTE**  | Habilitação de classe de aviões monomotores terrestres |
+| **PLA**   | Licença de Piloto de Linha Aérea - Avião |
+| **RF**    | Relatório Final |
+| **RS**    | Recomendação de Segurança |
+| **SBFL**  | Código ICAO do Aeroporto Internacional de Florianópolis |
+| **SC**    | Estado de Santa Catarina |
+| **SERIPA**| Serviço Regional de Investigação e Prevenção de Acidentes Aeronáuticos |
+| **SIPAER**| Sistema de Investigação e Prevenção de Acidentes Aeronáuticos |
+| **SUAA**  | Código ICAO do Aeroporto Internacional Ángel S. Adami (Montevidéu) |
+| **TWR-FL**| Torre de Controle de Florianópolis |
+| **UTC**   | Universal Time Coordinated (Tempo Universal Coordenado) |
+| **VFR**   | Visual Flight Rules (Regras de Voo Visual) |
+
+---
 
 
-FAER - FORA DE AERODROMO
+## 🗂️ Fontes Oficiais
+
+- **Relatórios Finais – CENIPA**  
+  [https://sistema.cenipa.fab.mil.br/cenipa/paginas/relatorios/relatorios.php](https://sistema.cenipa.fab.mil.br/cenipa/paginas/relatorios/relatorios.php)
+
+- **Lista de Ocorrências Aeronáuticas – SIPAER**  
+  [https://painelsipaer.cenipa.fab.mil.br/extensions/Sipaer/Ocorrencias.html](https://painelsipaer.cenipa.fab.mil.br/extensions/Sipaer/Ocorrencias.html)
+
+- **Recomendações de Segurança – CENIPA**  
+  [https://sistema.cenipa.fab.mil.br/cenipa/paginas/relatorios/recomendacoes.php](https://sistema.cenipa.fab.mil.br/cenipa/paginas/relatorios/recomendacoes.php)
+
+---
+
+📌 _Última atualização: 01 de julho de 2025_  
+👤 _Responsável técnico: João Vitor Luz – Engenheiro de Dados_
