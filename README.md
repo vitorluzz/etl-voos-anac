@@ -150,8 +150,6 @@ O projeto adota princípios da **arquitetura moderna de dados**, com foco em:
 
 ---
 
-
-
 ## 🗂️ Fontes Oficiais
 
 - **Relatórios Finais – CENIPA**  
@@ -165,5 +163,34 @@ O projeto adota princípios da **arquitetura moderna de dados**, com foco em:
 
 ---
 
-📌 _Última atualização: 11 de julho de 2025_  
+
+## 🤖 Prompts Utilizados com Assistente de IA
+
+Durante o desenvolvimento deste projeto, foram utilizados **prompts com assistentes de inteligência artificial** (como o ChatGPT) para apoiar o trabalho de análise, enriquecimento e padronização dos dados. Essa prática visou aumentar a eficiência em tarefas exploratórias e automatizar classificações complexas.
+
+### 📋 Lista de Prompts Aplicados
+
+#### 🔍 Encontrar notícias relacionadas à ocorrência
+- **Objetivo:** Localizar automaticamente notícias disponíveis na internet com base no número da ocorrência (NR_OCR) e demais dados do caso.
+- **Link:** [https://chatgpt.com/share/6871205a-9054-8012-8097-d811d444c5b3]
+
+#### ✈️ Identificar aeronave a partir da matrícula e operador
+- **Objetivo:** Buscar, com base no registro da aeronave (MTCL), dados complementares sobre o modelo, fabricante e operador.
+- **Link:** [https://chatgpt.com/share/6871204c-a3bc-8012-9a34-4bbb9bf14e39]
+
+#### 🧠 Classificar tipo de ocorrência com base no histórico textual
+- **Objetivo:** Sugerir uma classificação automatizada do tipo de ocorrência (TP_OCR) a partir da descrição textual do histórico do caso (HIST).
+- **Link:** [https://chatgpt.com/share/689392de-379c-8001-b312-8e9b7c5f7371]
+
+#### 🚀 Classificar fase da operação e descrição do tipo da ocorrência
+- **Objetivo:** Sugerir uma classificação automatizada da descrição do tipo de ocorrência e a fase da operação onde se ocorreu o indicente com base textual do histórico do caso (HIST).
+- **Link:** [https://chatgpt.com/share/68770ffb-6370-8001-82eb-0f8992fce9af]
+
+---
+
+> 📎 *OBS: Os resultados obtidos via IA foram sempre validados manualmente antes de sua adoção final, assegurando conformidade técnica e fidelidade factual aos dados oficiais.*
+
+---
+
+📌 _Última atualização: 06 de agosto de 2025_  
 👤 _Responsável técnico: João Vitor Luz – Engenheiro de Dados_
