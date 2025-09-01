@@ -161,6 +161,9 @@ O projeto adota princípios da **arquitetura moderna de dados**, com foco em:
 - **Recomendações de Segurança – CENIPA**  
   [https://sistema.cenipa.fab.mil.br/cenipa/paginas/relatorios/recomendacoes.php](https://sistema.cenipa.fab.mil.br/cenipa/paginas/relatorios/recomendacoes.php)
 
+- **Consultas ao Registro Aeronáutico Brasileiro (RAB)**  
+  [https://sistemas.anac.gov.br/aeronaves/cons_rab.asp#matricula](https://sistemas.anac.gov.br/aeronaves/cons_rab.asp#matricula)
+
 ---
 
 
@@ -192,5 +195,5 @@ Durante o desenvolvimento deste projeto, foram utilizados **prompts com assisten
 
 ---
 
-📌 _Última atualização: 06 de agosto de 2025_  
+📌 _Última atualização: 1 de setembro de 2025_  
 👤 _Responsável técnico: João Vitor Luz – Engenheiro de Dados_
